@@ -1,39 +1,55 @@
 # 🔐 Système d’alarme numérique sur FPGA
 
-## Présentation
+## 1. Présentation du projet
 
-Projet de conception numérique dont l’objectif est de concevoir un système logique de sécurité à partir d’un cahier des charges, puis de simuler et vérifier son comportement.
+Projet de conception numérique visant à concevoir un système logique de sécurité à partir d’un cahier des charges, puis à simuler et vérifier son comportement.
 
-## Objectifs
+## 2. Objectifs
 
-- Analyser les exigences fonctionnelles.
+- Analyser les exigences fonctionnelles du système.
 - Concevoir une logique combinatoire et séquentielle.
 - Simuler le circuit et vérifier les différents états.
-- Tester l’implémentation sur une carte FPGA.
+- Tester l’implémentation sur une carte FPGA, lorsque celle-ci est disponible.
 
-## Outils et technologies
+## 3. Matériel et outils utilisés
 
-- **FPGA** — implémentation matérielle
-- **Quartus II** — conception et compilation logique
-- **ModelSim** — simulation et vérification
-- **Logique numérique** — circuits combinatoires et séquentiels
+| Outil / élément | Utilisation |
+|---|---|
+| FPGA | Support d’implémentation matérielle |
+| Quartus II | Conception et compilation logique |
+| ModelSim | Simulation et vérification |
+| Logique numérique | Conception de circuits combinatoires et séquentiels |
 
-## Démarche
+## 4. Étapes de réalisation
 
 1. Analyser le cahier des charges.
 2. Définir l’architecture logique du système.
-3. Concevoir les circuits dans Quartus II.
-4. Simuler le fonctionnement avec ModelSim.
-5. Implémenter et tester sur la carte FPGA.
+3. Concevoir le circuit dans Quartus II.
+4. Simuler les états et les scénarios avec ModelSim.
+5. Implémenter et tester le système sur la carte FPGA, si réalisé.
 6. Vérifier le comportement et corriger les erreurs détectées.
 
-## Compétences mobilisées
+## 5. Compétences mobilisées
 
 - Conception de logique numérique
+- Logique combinatoire et séquentielle
+- Utilisation de Quartus II et ModelSim
 - Simulation et validation fonctionnelle
-- Utilisation d’un FPGA
-- Analyse de résultats et débogage
-- Respect d’exigences définies dans un cahier des charges
+- Analyse des résultats et débogage
+- Traduction d’un cahier des charges en solution logique
+
+## 6. Résultats et validation
+
+Le système est évalué à partir des simulations et des scénarios définis dans le cahier des charges. Ajouter les résultats de simulation ou les essais sur FPGA réellement effectués pour montrer le comportement attendu.
+
+## 7. Illustrations et documents
+
+Ajouter ici, si disponibles :
+- Schéma ou architecture logique
+- Captures de Quartus II
+- Chronogrammes ou captures ModelSim
+- Photos de l’implémentation sur FPGA
+- Le compte rendu du projet
 
 ---
 
