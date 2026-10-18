@@ -1,32 +1,41 @@
-# Système d'alarme numérique
+# 🔐 Système d’alarme numérique sur FPGA
 
-Objectif
-L’objectif de ce projet était de concevoir un système d’alarme numérique utilisant des circuits logiques combinatoires et séquentiels afin de comprendre les principes fondamentaux de la logique numérique et leur implémentation sur FPGA.
+## Présentation
 
-Technologies utilisées
+Projet de conception numérique dont l’objectif est de concevoir un système logique de sécurité à partir d’un cahier des charges, puis de simuler et vérifier son comportement.
 
-. FPGA
-. Quartus II
-. Logique combinatoire
-. Logique séquentielle
+## Objectifs
 
-Étapes du projet:
+- Analyser les exigences fonctionnelles.
+- Concevoir une logique combinatoire et séquentielle.
+- Simuler le circuit et vérifier les différents états.
+- Tester l’implémentation sur une carte FPGA.
 
-1. Analyse du cahier des charges
-2. Conception de l'architecture logique
-3. Réalisation des schémas sous Quartus II
-4. Simulation du comportement du système
-5. Implémentation sur FPGA
-6. Vérification du fonctionnement et correction des erreurs
+## Outils et technologies
 
-Compétences développées:
+- **FPGA** — implémentation matérielle
+- **Quartus II** — conception et compilation logique
+- **ModelSim** — simulation et vérification
+- **Logique numérique** — circuits combinatoires et séquentiels
 
-- Conception numérique
-- Simulation de systèmes électroniques
+## Démarche
+
+1. Analyser le cahier des charges.
+2. Définir l’architecture logique du système.
+3. Concevoir les circuits dans Quartus II.
+4. Simuler le fonctionnement avec ModelSim.
+5. Implémenter et tester sur la carte FPGA.
+6. Vérifier le comportement et corriger les erreurs détectées.
+
+## Compétences mobilisées
+
+- Conception de logique numérique
+- Simulation et validation fonctionnelle
 - Utilisation d’un FPGA
-- Analyse de circuits logiques
+- Analyse de résultats et débogage
+- Respect d’exigences définies dans un cahier des charges
 
-Résultats:
+---
 
-. Système fonctionnel validé sur carte FPGA
-. Acquisition de connaissances en logique numérique et en conception matérielle
+**Domaine :** électronique numérique · architecture matérielle  
+**Dépôt :** [Alarme](https://github.com/khadija-el-halouat/Alarme)
